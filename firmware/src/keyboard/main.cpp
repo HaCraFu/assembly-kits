@@ -1,13 +1,13 @@
-#include "DigiKeyboard.h"
+#include "DigiKeyboardDe.h"
 
 void setup() {}
 
 void loop() {
 
-  DigiKeyboard.update();
+  DigiKeyboardDe.update();
 
-  DigiKeyboard.print("Frohe ");
-  DigiKeyboard.print("Weihnachten ");
-  DigiKeyboard.print("wuenscht der HaCraFu!");
-  DigiKeyboard.delay(5000);
+  DigiKeyboardDe.print("Frohe ");
+  DigiKeyboardDe.print("Weihnachten ");
+  DigiKeyboardDe.print("wuenscht der HaCraFu!");
+  DigiKeyboardDe.delay(5000);
 }
