@@ -1,10 +1,19 @@
-Um vorhandene Beispielprogramme auf die Platine zu installieren musst Platformio installiert und [unsere Quelldateien](https://github.com/HaCraFu/assembly-kits/archive/refs/heads/main.zip) entpackt haben.
+Um vorhandene Beispielprogramme auf die Platine zu installieren musst du [unsere Quelldateien](https://github.com/HaCraFu/assembly-kits/archive/refs/heads/main.zip) entpackt haben. Ungefähr so:
 
-Du musst per Konsole in den Ordner `firmware` gehen um die folgenden Installationsbefehle ausführen zu können. Du darfst die Platine erst mit dem PC verbinden, wenn dich der Befehl mit dem Text
+
+
+https://user-images.githubusercontent.com/569476/201182708-acaa4405-1dc1-4569-b38f-cbbf6431099c.mp4
+
+
+Öffne dann in Visual Studio Code Ordner `firmware` um die folgenden Installationsbefehle ausführen zu können. Du darfst die Platine erst mit dem PC verbinden, wenn dich der Befehl mit dem Text
 ```
 > Please plug in the device (will time out in 60 seconds) ...
 ```
-dazu auffordert.
+dazu auffordert. Das ganze sieht dann ungefähr so aus:
+
+
+https://user-images.githubusercontent.com/569476/201183405-0103f8cb-6e34-4ea9-b6d8-c2079674172b.mp4
+
 
 
 # Arrow
