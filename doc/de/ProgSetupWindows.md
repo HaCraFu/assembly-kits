@@ -1,7 +1,7 @@
 # Einrichtung der Programmierumgebung unter Windows
 
 ## 1. Installation des Treibers
-Die Programmierung unter Windows benötigt die Installation [dieses Treibers](https://github.com/digistump/DigistumpArduino/releases/download/1.6.7/Digistump.Drivers.zip).
+Die Programmierung unter Windows benötigt die Installation [dieses Treibers](https://github.com/digistump/DigistumpArduino/releases/download/1.6.7/Digistump.Drivers.zip). Hier eine kurze Videoanleitung:
 
 
 https://user-images.githubusercontent.com/569476/201181683-92534c1a-1d4b-48df-86cc-ece778e53c06.mp4
