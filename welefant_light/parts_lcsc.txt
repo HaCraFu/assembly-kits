@@ -1,0 +1,31 @@
+C2884956    PJ-324      Audio Jack
+C5142171    Microphone  GSA4737H12-F26-6P
+C21117      C           33n
+C14663      C           100n
+C15849      C           1u
+C19702      C           10u
+C59461      C           22u
+C22808      R           150
+C22966      R           270
+C23138      R           330
+C21190      R           1K
+C22940      R           2K4
+C22978      R           3K3
+C23186      R           5K1
+C25804      R           10K
+C4216       R           33K
+C25803      R           100K
+C22961      R           220K
+C23150      R           390K
+C8056       Z-Diode     3V3
+C8062       Z-Diode     5V6
+C72038      LED         yellow
+C72041      LED         blue
+C82942      LDO         ME6211C33M5G-N
+C723789     LDO         HE9073A33M5R
+C892227     LDO         NCP167BMX330TBG
+C8678       Schottky
+C10487      MOSFET-P
+C16581      Bat-Charg   TP4056
+C2927038    USB-C
+C2913205    ESP32-S3    WROOM-1-N16R2
