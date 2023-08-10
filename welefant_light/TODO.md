@@ -1,0 +1,8 @@
+- [x]  Battery Level Input
+- [ ]  Battery connector PH2 checken, Teile suchen+bestellen + Polarität checken
+- [ ]  Ausschalter!
+- [ ]  I2C-Anschluss?
+- [ ]  Reset+Boot Switches
+- [x]  MOSFET Schaltung fixen
+- [ ]  Connector breiter
+- [ ]  SK Mini Lochgrößen
