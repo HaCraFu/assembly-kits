@@ -1,6 +1,6 @@
 #C2884956    PJ-324      Audio Jack
 #C5142171    Microphone  GSA4737H12-F26-6P
-C2895290    Microphone
+#C2895290    Microphone
 #C1565       C           3p3
 #C1569	    C           4p7
 #C1644       C           15p
@@ -30,7 +30,7 @@ C2895290    Microphone
 #C82942      LDO         ME6211C33M5G-N
 #C723789     LDO         HE9073A33M5R
 #C892227     LDO         NCP167BMX330TBG
-C841192      LDO         RT9080-33GJ5
+#C841192      LDO         RT9080-33GJ5
 #C191023     Schottky    1N5819
 #C10487      MOSFET-P
 #C16581      Bat-Charg   TP4056
@@ -39,3 +39,5 @@ C841192      LDO         RT9080-33GJ5
 #C97521       Flash       W25Q128JVSIQ
 #C2913192     ESP32-S3
 #C9010        Crystal     40 MHz
+#C778186     Switch
+C697881		Reset Circuits	2.8 V
