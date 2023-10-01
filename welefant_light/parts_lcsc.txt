@@ -40,4 +40,5 @@
 #C2913192     ESP32-S3
 #C9010        Crystal     40 MHz
 #C778186     Switch
-C697881		Reset Circuits	2.8 V
+C431540     Switch
+#C697881		Reset Circuits	2.8 V
