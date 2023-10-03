@@ -37,8 +37,9 @@
 #C2927038    USB-C
 #C2913205    ESP32-S3    WROOM-1-N16R2
 #C97521       Flash       W25Q128JVSIQ
-#C2913192     ESP32-S3
+#C2913192     ESP32-S3    https://jlcpcb.com/partdetail/EspressifSystems-ESP32S3/C2913192
 C3013940	ESP32-S3FH4R2
+
 #C9010        Crystal     40 MHz
 #C778186     Switch
 C128955     Switch
