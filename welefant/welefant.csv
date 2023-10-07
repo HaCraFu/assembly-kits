@@ -1,6 +1,0 @@
-Comment,Designator,Footprint,LCSC
-"TS-1187A-B-A-B","SW1,SW2","converter:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2",""
-"HE9073A30MR","U1","converter:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR-CW",""
-"TP4056","U2","converter:ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP",""
-"ESP32-S3-WROOM-1-N8","U3","converter:WIFIM-SMD_ESP32-S3-WROOM-1-N8",""
-"USB-TYPE-C-018","USB1","converter:USB-C_SMD-TYPE-C-31-M-12",""

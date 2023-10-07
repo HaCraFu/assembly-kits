@@ -3,3 +3,6 @@
 *fp-info-cache
 **.vscode
 **.pio
+lib/easyeda2kicad**
+**/jlcpcb/**
+rechnungen/**
