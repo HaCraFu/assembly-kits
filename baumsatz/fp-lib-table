@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name "HaCraFu")(type "KiCad")(uri "${KIPRJMOD}/../footprints")(options "")(descr ""))
+  (version 7)
+  (lib (name "hacrafu")(type "KiCad")(uri "${KIPRJMOD}/../lib/hacrafu.pretty")(options "")(descr ""))
 )
