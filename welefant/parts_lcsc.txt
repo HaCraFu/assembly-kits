@@ -1,11 +1,13 @@
 #C2884956    PJ-324      Audio Jack
 #C5142171    Microphone  GSA4737H12-F26-6P
 #C2895290    Microphone
-#C1565       C           3p3
+#C1565       C           3p3 0402
+C1660       C           3p3 0603
 #C1569	    C           4p7
 #C1644       C           15p
 #C21117      C           33n
 #C14663      C           100n
+C1525        C           100n 0402
 #C15849      C           1u
 #C19702      C           10u
 #C59461      C           22u
@@ -41,5 +43,5 @@
 C3013940	ESP32-S3FH4R2
 #C9010        Crystal     40 MHz
 #C778186     Switch
-C128955     Switch
+#C128955     Switch
 #C697881		Reset Circuits	2.8 V
