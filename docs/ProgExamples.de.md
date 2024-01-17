@@ -1,9 +1,16 @@
+# Programmierbeispiele
+
+## Download
+
 Um vorhandene Beispielprogramme auf die Platine zu installieren musst du [unsere Quelldateien](https://github.com/HaCraFu/assembly-kits/archive/refs/heads/main.zip) entpackt haben. Ungefähr so:
 
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="../assets/videos/extract.mp4" type="video/mp4">
+  </video>
+</figure>
 
-
-https://user-images.githubusercontent.com/569476/201182708-acaa4405-1dc1-4569-b38f-cbbf6431099c.mp4
-
+## Öffnen
 
 Öffne dann in Visual Studio Code Ordner `firmware` um die folgenden Installationsbefehle ausführen zu können. Du darfst die Platine erst mit dem PC verbinden, wenn dich der Befehl mit dem Text
 ```
@@ -12,13 +19,15 @@ https://user-images.githubusercontent.com/569476/201182708-acaa4405-1dc1-4569-b3
 dazu auffordert. Das ganze sieht dann ungefähr so aus:
 
 
-https://user-images.githubusercontent.com/569476/201183405-0103f8cb-6e34-4ea9-b6d8-c2079674172b.mp4
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="../assets/videos/use_vscode.mp4" type="video/mp4">
+  </video>
+</figure>
 
+## Beispiel Arrow
 
-
-# Arrow
-
-Auf dem [Bau(m)satz](KitBaumsatz.md) zeigt dieses Programm eine kleine Pfeilanimation.
+Auf dem [Bau(m)satz](KitBaumsatz.de.md) zeigt dieses Programm eine kleine Pfeilanimation.
 
 Installieren mit dem Befehl 
 ```
@@ -28,7 +37,7 @@ pio run -e arrow -t upload
 Verändern des Programms in der Datei `firmware/src/arrow/main.cpp`
 
 
-# Random
+## Beispiel Random
 
 Lässt zufällig eine der sechs LED beim Start leuchten. Keine Gewähr für [Gleichverteilung](https://de.wikipedia.org/wiki/Stetige_Gleichverteilung)!
 
@@ -40,7 +49,7 @@ pio run -e random -t upload
 Verändern des Programms in der Datei `firmware/src/random/main.cpp`
 
 
-# Random LED
+## Beispiel Random LED
 
 Wechselt nach kurzer Pause zu einer zufälligen LED.
 
@@ -52,7 +61,7 @@ pio run -e random_led -t upload
 Verändern des Programms in der Datei `firmware/src/random_led/main.cpp`
 
 
-# Provisioning Bau(m)satz
+## Beispiel Provisioning Bau(m)satz
 
 Die initiale Firmware. Schaltet nacheinander alle LEDs an. Wechselt danach alle 8 Sekunden zwischen LED-Paaren weiter.
 
@@ -64,7 +73,7 @@ pio run -e provisioning_baumsatz_usb -t upload
 Verändern des Programms in der Datei `firmware/src/provisioning_baumsatz/main.cpp`
 
 
-# Provisioning Unicorn
+## Beispiel Provisioning Unicorn
 
 Die initiale Firmware. Schaltet nacheinander alle LEDs an. Danach folgt eine Animation.
 
@@ -76,7 +85,7 @@ pio run -e provisioning_unicorn_usb -t upload
 Verändern des Programms in der Datei `firmware/src/provisioning_unicorn/main.cpp`
 
 
-# Keyboard
+## Beispiel Keyboard
 
 Beispielprogramm für Keyboardemulation. 
 
@@ -91,7 +100,7 @@ pio run -e keyboard -t upload
 Verändern des Programms in der Datei `firmware/src/keyboard/main.cpp`
 
 
-# Touch dice
+## Beispiel Touch dice
 
 Beispielprogramm für Touch. Berührt man die USB-Pins mit dem feuchten Finger würfelt das Programm eine andere LED aus.
 

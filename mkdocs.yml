@@ -1,0 +1,43 @@
+site_name: Bausätze
+site_url: https://hacrafu.github.io/assembly-kits/
+site_dir: 'docbuild/kits'
+
+theme:
+  name: material
+  language: de
+  logo: 'assets/images/hacrafu.svg'
+  features:
+    - navigation.expand
+    - navigation.sections
+    - content.action.edit
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil 
+    view: material/eye
+
+plugins:
+  - search:                                         
+      lang: de
+  - i18n:
+      languages:
+        de: "Deutsch"
+        en: "English"
+      default_language: 'de'
+
+extra:
+  alternate:
+    - name: Deutsch
+      link: ""
+      lang: de
+    - name: English
+      link: index.en/
+      lang: en
+  homepage: https://hacrafu.de
+  version:
+    provider: mike
+    default: latest
+
+
+edit_uri: edit/main/doc/de/
+
+repo_url: https://github.com/hacrafu/assembly-kits

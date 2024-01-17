@@ -1,8 +1,8 @@
 # Unicorn
 
-<img src="../img/unicorn_front.png" width="200" height="200" alt="Unicorn Vorderseite">
-<img src="../img/unicorn_back.png" width="200" height="200" alt="Unicorn Rückseite">
-<img src="../img/unicorn_live.webp" width="260" height="200" alt="Unicorn Live">
+<img src="../assets/images/unicorn_front.png" width="200" height="200" alt="Unicorn Vorderseite">
+<img src="../assets/images/unicorn_back.png" width="200" height="200" alt="Unicorn Rückseite">
+<img src="../assets/images/unicorn_live.webp" width="260" height="200" alt="Unicorn Live">
 
 Diese Platine orientiert sich äußerlich am [Regenbogen Einhorn](https://shop.blinkyparts.com/de/Regenbogen-Einhorn-Loetbausatz-Einfacher-Anstecker-fuer-Anfaenger/blink232242). Die Bestückung ist allerdings gleich zum [Bau(m)satz](KitBaumsatz.md).
 
