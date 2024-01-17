@@ -1,8 +1,8 @@
 # Unicorn S
 
-<img src="../img/unicorn_s_front.png" width="200" height="200" alt="Unicorn S Vorderseite">
-<img src="../img/unicorn_s_back.png" width="200" height="200" alt="Unicorn S Rückseite">
-<img src="../img/unicorn_s_live.jpg" width="200" height="200" alt="Unicorn S Rückseite">
+<img src="assets/images/unicorn_s_front.png" width="200" height="200" alt="Unicorn S Vorderseite">
+<img src="assets/images/unicorn_s_back.png" width="200" height="200" alt="Unicorn S Rückseite">
+<img src="assets/images/unicorn_s_live.jpg" width="200" height="200" alt="Unicorn S Rückseite">
 
 Diese Platine ist praktisch baugleich zum [Regenbogen Einhorn](https://shop.blinkyparts.com/de/Regenbogen-Einhorn-Loetbausatz-Einfacher-Anstecker-fuer-Anfaenger/blink232242).
 Es wurde nur ein anderer Schalter verwendet und die Beschriftung etwas modifiziert.
