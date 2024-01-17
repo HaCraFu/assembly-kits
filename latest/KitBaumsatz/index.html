@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://hacrafu.de/de/latest/ProgSetupLinux/">
+        <link rel="canonical" href="https://hacrafu.de/de/latest/KitBaumsatz/">
       
       
-        <link rel="prev" href="../ProgExamples/">
+        <link rel="prev" href="..">
       
       
-        <link rel="next" href="../ProgSetupWindows/">
+        <link rel="next" href="../KitUnicorn/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>Einrichtung der Programmierumgebung unter Linux - Bausätze</title>
+        <title>Bau(m)satz - Bausätze</title>
       
     
     
@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#einrichtung-der-programmierumgebung-unter-linux" class="md-skip">
+        <a href="#baumsatz" class="md-skip">
           Zum Inhalt
         </a>
       
@@ -103,7 +103,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Einrichtung der Programmierumgebung unter Linux
+              Bau(m)satz
             
           </span>
         </div>
@@ -124,13 +124,13 @@
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="../en" hreflang="en" class="md-select__link">
+            <a href="../en/latest" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../de" hreflang="de" class="md-select__link">
+            <a href="../de/latest" hreflang="de" class="md-select__link">
               Deutsch
             </a>
           </li>
@@ -262,10 +262,19 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../KitBaumsatz/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -274,6 +283,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -342,19 +352,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../ProgSetupLinux/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -363,7 +364,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -421,7 +421,7 @@
                   
 
   
-    <a href="https://github.com/hacrafu/assembly-kits/edit/main/doc/de/ProgSetupLinux.md" title="Seite editieren" class="md-content__button md-icon">
+    <a href="https://github.com/hacrafu/assembly-kits/edit/main/doc/de/KitBaumsatz.md" title="Seite editieren" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
     </a>
@@ -429,11 +429,13 @@
   
 
 
-<h1 id="einrichtung-der-programmierumgebung-unter-linux">Einrichtung der Programmierumgebung unter Linux</h1>
-<p>Installiere dir das Paket <code>platformio</code> um die Firmware kompilieren zu können.</p>
-<p>Als Entwicklungsumgebung bietet sich <a href="https://code.visualstudio.com/docs/setup/linux">VS Code</a> an. 
-Es bietet mit dem <code>platformio</code> Plugin eine gute Integration, aber jeder andere Editor tut es auch.</p>
-<p>Eine Übersicht zu Programmierbeispielen und wie du sie ausführst findest du <a href="../ProgExamples">hier</a>.</p>
+<h1 id="baumsatz">Bau(m)satz</h1>
+<p><img src="../assets/images/baumsatz_front.png" width="200" height="200" alt="Bau(m)satz Vorderseite">
+<img src="../assets/images/baumsatz_back.png" width="200" height="200" alt="Bau(m)satz Rückseite"></p>
+<p>Diese Platine orientiert sich größtenteils am <a href="http://digistump.com/wiki/digispark/tutorials/connecting">Digistump</a>.
+Sie enthält auch den Microcontroller <a href="https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet.pdf">ATtiny85</a> und die USB-Schaltung.</p>
+<p>Sie kann also auf die gleiche Weise programmiert werden.</p>
+<p>Zusätzlich zum Digistump sind 6 LEDs per <a href="https://en.wikipedia.org/wiki/Charlieplexing">Charlieplexing</a> an PB0, PB1 und PB2 angeschlossen.</p>
 
 
 
