@@ -1,4 +1,3 @@
 # HaCraFu assembly kits
 
-[Deutsche Anleitung](doc/de/README.md)
-
+[Documentation](https://hacrafu.github.io/assembly-kits)
