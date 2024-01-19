@@ -9,3 +9,4 @@ rechnungen/**
 **/output/**
 **.kicad_sch.lck
 docbuild/**
+docs/kibot/**

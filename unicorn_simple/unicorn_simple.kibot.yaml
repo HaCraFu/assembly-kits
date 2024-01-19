@@ -1,0 +1,120 @@
+kibot:
+  version: 1
+
+global:
+  filters:
+  - number: 1007
+  - number: 1015
+  - number: 58
+
+import:
+- file: JLCPCB
+
+outputs:
+- name: JLCPCB
+  comment: ZIP file for JLCPCB
+  type: compress
+  dir: manufacture
+  extends: ''
+  disable_run_by_default: _JLCPCB_compress
+  options:
+    files:
+    - from_output: JLCPCB_gerbers
+      dest: /
+    - from_output: JLCPCB_drill
+      dest: /
+    - from_output: JLCPCB_position
+      dest: /
+- name: JLCPCB_gerbers
+  comment: Gerbers compatible with JLCPCB
+  type: gerber
+  dir: manufacture/jlcpcb
+  extends: _JLCPCB_gerbers
+  disable_run_by_default: true
+  layers: &id002
+  - layer: F.Cu
+    suffix: F_Cu
+    description: Front copper
+  - layer: B.Cu
+    suffix: B_Cu
+    description: Bottom copper
+  - layer: B.Paste
+    suffix: B_Paste
+    description: Bottom solder paste
+  - layer: B.Silkscreen
+    suffix: B_Silkscreen
+    description: Bottom silkscreen (artwork)
+  - layer: B.Mask
+    suffix: B_Mask
+    description: Bottom soldermask (negative)
+  - layer: F.Mask
+    suffix: F_Mask
+    description: Front soldermask (negative)
+  - layer: Edge.Cuts
+    suffix: Edge_Cuts
+    description: Board shape
+- name: JLCPCB_drill
+  comment: Drill files compatible with JLCPCB
+  type: excellon
+  dir: manufacture/jlcpcb
+  extends: _JLCPCB_drill
+  disable_run_by_default: true
+- name: JLCPCB_position
+  comment: Pick and place file, JLCPCB style
+  type: position
+  dir: Manufacturers/JLCPCB
+  extends: _JLCPCB_position
+  disable_run_by_default: true
+  options:
+    pre_transform:
+    - _kicost_rename
+    - _rot_footprint
+- name: basic_ibom
+  comment: Interactive HTML BoM
+  type: ibom
+  dir: ibom
+- name: basic_navigate_results
+  comment: Web page to browse the results
+  type: navigate_results
+  dir: Browse
+  options:
+    link_from_root: index.html
+# - name: basic_pcbdraw_png_jlcpcb_green_enig_top
+#   comment: PCB 2D render in PNG format, using jlcpcb-green-enig style
+#   type: pcbdraw
+#   dir: PCB/2D_render/jlcpcb_green_enig
+#   options:
+#     style: set-black-enig
+#     format: png
+- name: basic_pdf_sch_print
+  comment: Schematic in PDF format
+  type: pdf_sch_print
+  dir: schematic
+- name: basic_render_3d_top
+  comment: 3D view from top
+  type: render_3d
+  dir: render
+  options:
+    ray_tracing: true
+    orthographic: true
+- name: basic_render_3d_30deg
+  comment: 3D view from 30 degrees
+  type: render_3d
+  dir: render
+  output_id: 30deg
+  options:
+    ray_tracing: true
+    rotate_x: 3
+    rotate_z: -2
+- name: basic_render_3d_bottom
+  comment: 3D view from bottom
+  type: render_3d
+  dir: render
+  options:
+    ray_tracing: true
+    orthographic: true
+    view: bottom
+- name: basic_step
+  comment: 3D model in STEP format
+  type: step
+  dir: render

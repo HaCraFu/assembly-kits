@@ -35,6 +35,12 @@ plugins:
           name: English
           build: true
           site_name: "HaCraFu assembly kits"
+  # - iframe:
+  #     reports:
+  #       - name: Baumsatz iBOM
+  #         path: ./kibot/baumsatz/ibom
+  #         root: baumsatz-ibom.html
+  #         page: kits/baumsatz/ibom
 
 extra:
   alternate:
@@ -51,6 +57,7 @@ extra:
 
 markdown_extensions:
   - admonition
+  - attr_list
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.tabbed:

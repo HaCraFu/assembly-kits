@@ -1,9 +1,15 @@
 services:
   serve:
     build: ./docs
-    command: serve -a 0.0.0.0:8000
+    command: mkdocs serve -a 0.0.0.0:8000
     ports:
       - "8000:8000"
+    volumes:
+      - .:/project
+    working_dir: /project
+  kibot:
+    image: ghcr.io/inti-cmnb/kicad7_auto:1.6.1
+    command: bash -c "pushd baumsatz && kibot -d ../docs/kibot/baumsatz && popd && pushd owlthief && kibot -d ../docs/kibot/owlthief && popd && pushd unicorn_simple && kibot -d ../docs/kibot/unicorn_s && popd"
     volumes:
       - .:/project
     working_dir: /project
