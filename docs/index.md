@@ -1,16 +1,16 @@
-# Beschreibung
+Der Verein Hacken Craften Funken e.V. entwickelt mehrere Bausätze:
 
 <img src="assets/images/unicorn_s_live.jpg" width="100" height="100" alt="Unicorn S">
 
-[Unicorn S](KitUnicornS.de.md)
+[Unicorn S](kits/unicorn_s)
 
 <img src="assets/images/baumsatz_front.png" width="100" height="100" alt="Bau(m)satz Vorderseite">
 
-[Bau(m)satz](KitBaumsatz.de.md)
+[Bau(m)satz](kits/baumsatz)
 
 <img src="assets/images/unicorn_live.webp" width="130" height="100" alt="Unicorn">
 
-[Unicorn](KitUnicorn.de.md)
+[Unicorn](kits/unicorn)
 
 ## Programmierung
 

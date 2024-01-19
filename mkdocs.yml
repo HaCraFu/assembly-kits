@@ -1,4 +1,4 @@
-site_name: Bausätze
+site_name: HaCraFu Bausätze
 site_url: https://hacrafu.github.io/assembly-kits/
 site_dir: 'docbuild/kits'
 
@@ -19,10 +19,22 @@ plugins:
   - search:                                         
       lang: de
   - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
       languages:
-        de: "Deutsch"
-        en: "English"
-      default_language: 'de'
+        - locale: de
+          default: true
+          name: Deutsch
+          build: true
+          site_name: "HaCraFu Bausätze"
+          nav_translations:
+            Kits: Bausätze
+        - locale: en
+          name: English
+          build: true
+          site_name: "HaCraFu assembly kits"
 
 extra:
   alternate:
@@ -30,14 +42,20 @@ extra:
       link: ""
       lang: de
     - name: English
-      link: index.en/
+      link: en
       lang: en
   homepage: https://hacrafu.de
   version:
     provider: mike
     default: latest
 
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
 
-edit_uri: edit/main/doc/de/
+edit_uri: edit/main/docs
 
 repo_url: https://github.com/hacrafu/assembly-kits

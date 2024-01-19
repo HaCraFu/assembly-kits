@@ -8,3 +8,4 @@ lib/easyeda2kicad**
 rechnungen/**
 **/output/**
 **.kicad_sch.lck
+docbuild/**
