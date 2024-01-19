@@ -2,42 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://hacrafu.github.io/assembly-kits/latest/</loc>
-         <lastmod>2024-01-17</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://hacrafu.github.io/assembly-kits/latest/KitBaumsatz.de/</loc>
-         <lastmod>2024-01-17</lastmod>
+         <lastmod>2024-01-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hacrafu.github.io/assembly-kits/latest/KitUnicorn.de/</loc>
-         <lastmod>2024-01-17</lastmod>
+         <lastmod>2024-01-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hacrafu.github.io/assembly-kits/latest/KitUnicornS.de/</loc>
-         <lastmod>2024-01-17</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://hacrafu.github.io/assembly-kits/latest/ProgExamples.de/</loc>
-         <lastmod>2024-01-17</lastmod>
+         <lastmod>2024-01-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hacrafu.github.io/assembly-kits/latest/ProgSetupLinux.de/</loc>
-         <lastmod>2024-01-17</lastmod>
+         <lastmod>2024-01-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hacrafu.github.io/assembly-kits/latest/ProgSetupWindows.de/</loc>
-         <lastmod>2024-01-17</lastmod>
+         <lastmod>2024-01-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hacrafu.github.io/assembly-kits/latest/index.en/</loc>
-         <lastmod>2024-01-17</lastmod>
+         <lastmod>2024-01-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hacrafu.github.io/assembly-kits/latest/kits/baumsatz/index.de/</loc>
+         <lastmod>2024-01-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hacrafu.github.io/assembly-kits/latest/programming/avr/examples.de/</loc>
+         <lastmod>2024-01-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
