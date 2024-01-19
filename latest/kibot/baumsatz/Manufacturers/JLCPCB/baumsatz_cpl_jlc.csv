@@ -1,0 +1,21 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+"BT1","Battery_Cell","Batteryholder",0.0000,-70.0000,180.0000,top
+"C1","0.1u","C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",5.0800,-16.7640,0.0000,top
+"C2","4.7u","C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",5.0800,-20.8280,0.0000,top
+"D1","LED","LED_1206",0.0000,-15.0000,0.0000,bottom
+"D2","LED","LED_1206",20.0000,-31.0000,0.0000,bottom
+"D3","LED","LED_1206",-20.0000,-31.0000,0.0000,bottom
+"D4","LED","LED_1206",0.0000,-50.0000,0.0000,bottom
+"D5","LED","LED_1206",37.0000,-77.0000,0.0000,bottom
+"D6","LED","LED_1206",-37.0000,-77.0000,0.0000,bottom
+"D7","3.6","Z-Diode Minimelf",14.8590,-52.5780,0.0000,top
+"D8","3.6","Z-Diode Minimelf",14.7760,-56.7690,0.0000,top
+"J1","Pins_Attiny","PinHeader_2x04_Attiny",0.0000,-52.3240,0.0000,top
+"R1","66.5","R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",12.7000,-29.7180,180.0000,top
+"R2","66.5","R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",12.7000,-25.9080,180.0000,top
+"R3","66.5","R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",12.7000,-22.0980,180.0000,top
+"R4","66.5","R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",20.1930,-63.3730,-90.0000,top
+"R5","66.5","R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",25.1460,-63.2460,-90.0000,top
+"R6","1K","R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",12.9540,-48.6410,0.0000,top
+"SW1","SW_SPST","Switch_MSS22D18",0.0000,-38.1000,-90.0000,top
+"U1","ATtiny85-20S","SOIC-8W_5.3x5.3mm_P1.27mm-breiter",0.0000,-27.0000,270.0000,top
