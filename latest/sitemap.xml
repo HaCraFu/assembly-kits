@@ -2,112 +2,112 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>https://hacrafu.github.io/assembly-kits/latest/</loc>
-        <lastmod>2024-01-19</lastmod>
+        <lastmod>2024-01-20</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://hacrafu.github.io/assembly-kits/latest/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://hacrafu.github.io/assembly-kits/latesten/"/>
     </url>
     <url>
         <loc>https://hacrafu.github.io/assembly-kits/latest/kits/baumsatz/</loc>
-        <lastmod>2024-01-19</lastmod>
+        <lastmod>2024-01-20</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://hacrafu.github.io/assembly-kits/latest/kits/baumsatz/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://hacrafu.github.io/assembly-kits/latesten/kits/baumsatz/"/>
     </url>
     <url>
         <loc>https://hacrafu.github.io/assembly-kits/latest/kits/owlthief/</loc>
-        <lastmod>2024-01-19</lastmod>
+        <lastmod>2024-01-20</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://hacrafu.github.io/assembly-kits/latest/kits/owlthief/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://hacrafu.github.io/assembly-kits/latesten/kits/owlthief/"/>
     </url>
     <url>
         <loc>https://hacrafu.github.io/assembly-kits/latest/kits/unicorn/</loc>
-        <lastmod>2024-01-19</lastmod>
+        <lastmod>2024-01-20</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://hacrafu.github.io/assembly-kits/latest/kits/unicorn/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://hacrafu.github.io/assembly-kits/latesten/kits/unicorn/"/>
     </url>
     <url>
         <loc>https://hacrafu.github.io/assembly-kits/latest/kits/unicorn_s/</loc>
-        <lastmod>2024-01-19</lastmod>
+        <lastmod>2024-01-20</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://hacrafu.github.io/assembly-kits/latest/kits/unicorn_s/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://hacrafu.github.io/assembly-kits/latesten/kits/unicorn_s/"/>
     </url>
     <url>
         <loc>https://hacrafu.github.io/assembly-kits/latest/programming/circuitpython/</loc>
-        <lastmod>2024-01-19</lastmod>
+        <lastmod>2024-01-20</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://hacrafu.github.io/assembly-kits/latest/programming/circuitpython/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://hacrafu.github.io/assembly-kits/latesten/programming/circuitpython/"/>
     </url>
     <url>
         <loc>https://hacrafu.github.io/assembly-kits/latest/programming/avr/examples/</loc>
-        <lastmod>2024-01-19</lastmod>
+        <lastmod>2024-01-20</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://hacrafu.github.io/assembly-kits/latest/programming/avr/examples/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://hacrafu.github.io/assembly-kits/latesten/programming/avr/examples/"/>
     </url>
     <url>
         <loc>https://hacrafu.github.io/assembly-kits/latest/programming/avr/</loc>
-        <lastmod>2024-01-19</lastmod>
+        <lastmod>2024-01-20</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="https://hacrafu.github.io/assembly-kits/latest/programming/avr/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://hacrafu.github.io/assembly-kits/latesten/programming/avr/"/>
     </url>
     <url>
         <loc>https://hacrafu.github.io/assembly-kits/latest/en/</loc>
-        <lastmod>2024-01-19</lastmod>
+        <lastmod>2024-01-20</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://hacrafu.github.io/assembly-kits/latest/en/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://hacrafu.github.io/assembly-kits/latest"/>
     </url>
     <url>
         <loc>https://hacrafu.github.io/assembly-kits/latest/en/kits/baumsatz/</loc>
-        <lastmod>2024-01-19</lastmod>
+        <lastmod>2024-01-20</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://hacrafu.github.io/assembly-kits/latest/en/kits/baumsatz/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://hacrafu.github.io/assembly-kits/latestkits/baumsatz/"/>
     </url>
     <url>
         <loc>https://hacrafu.github.io/assembly-kits/latest/en/kits/owlthief/</loc>
-        <lastmod>2024-01-19</lastmod>
+        <lastmod>2024-01-20</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://hacrafu.github.io/assembly-kits/latest/en/kits/owlthief/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://hacrafu.github.io/assembly-kits/latestkits/owlthief/"/>
     </url>
     <url>
         <loc>https://hacrafu.github.io/assembly-kits/latest/en/kits/unicorn/</loc>
-        <lastmod>2024-01-19</lastmod>
+        <lastmod>2024-01-20</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://hacrafu.github.io/assembly-kits/latest/en/kits/unicorn/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://hacrafu.github.io/assembly-kits/latestkits/unicorn/"/>
     </url>
     <url>
         <loc>https://hacrafu.github.io/assembly-kits/latest/en/kits/unicorn_s/</loc>
-        <lastmod>2024-01-19</lastmod>
+        <lastmod>2024-01-20</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://hacrafu.github.io/assembly-kits/latest/en/kits/unicorn_s/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://hacrafu.github.io/assembly-kits/latestkits/unicorn_s/"/>
     </url>
     <url>
         <loc>https://hacrafu.github.io/assembly-kits/latest/en/programming/circuitpython/</loc>
-        <lastmod>2024-01-19</lastmod>
+        <lastmod>2024-01-20</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://hacrafu.github.io/assembly-kits/latest/en/programming/circuitpython/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://hacrafu.github.io/assembly-kits/latestprogramming/circuitpython/"/>
     </url>
     <url>
         <loc>https://hacrafu.github.io/assembly-kits/latest/en/programming/avr/examples/</loc>
-        <lastmod>2024-01-19</lastmod>
+        <lastmod>2024-01-20</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://hacrafu.github.io/assembly-kits/latest/en/programming/avr/examples/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://hacrafu.github.io/assembly-kits/latestprogramming/avr/examples/"/>
     </url>
     <url>
         <loc>https://hacrafu.github.io/assembly-kits/latest/en/programming/avr/</loc>
-        <lastmod>2024-01-19</lastmod>
+        <lastmod>2024-01-20</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://hacrafu.github.io/assembly-kits/latest/en/programming/avr/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://hacrafu.github.io/assembly-kits/latestprogramming/avr/"/>
