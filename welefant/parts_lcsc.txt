@@ -2,8 +2,9 @@
 #C5142171    Microphone  GSA4737H12-F26-6P
 #C2895290    Microphone
 #C1565       C           3p3 0402
-C1660       C           3p3 0603
-#C1569	    C           4p7
+C1660        C           3p3 0603
+C162224      C           3p3 0603 Alternative
+#C1569	     C           4p7
 #C1644       C           15p
 #C21117      C           33n
 #C14663      C           100n
@@ -11,7 +12,7 @@ C1525        C           100n 0402
 #C15849      C           1u
 #C19702      C           10u
 #C59461      C           22u
-#C29682     L           2n2
+#C29682       L           2n2
 #C21189       R           0
 #C22808      R           150
 #C22966      R           270
@@ -29,6 +30,7 @@ C1525        C           100n 0402
 #C8062       Z-Diode     5V6
 #C72038      LED         yellow
 #C72041      LED         blue
+C2290       LED         white
 #C82942      LDO         ME6211C33M5G-N
 #C723789     LDO         HE9073A33M5R
 #C892227     LDO         NCP167BMX330TBG
@@ -45,3 +47,4 @@ C3013940	ESP32-S3FH4R2
 #C778186     Switch
 #C128955     Switch
 #C697881		Reset Circuits	2.8 V
+C383211	       ESD
