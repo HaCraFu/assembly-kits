@@ -8,5 +8,6 @@ lib/easyeda2kicad**
 rechnungen/**
 **/output/**
 **.kicad_sch.lck
+*.lck
 docbuild/**
 docs/kibot/**
