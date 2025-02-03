@@ -1,0 +1,213 @@
+(footprint "LiPo_Recycled_Array"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Through hole angled pin header, 1x02, 2.54mm pitch, 6mm pin length, single row")
+	(tags "Through hole angled pin header THT 1x02 2.54mm single row")
+	(property "Reference" "REF**"
+		(at 0.01 7.17 90)
+		(layer "F.SilkS")
+		(uuid "782edb27-5b92-48d3-ad5f-c2d0e1325746")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LiPo_Recycled_Array"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "421678c1-8ac8-425a-8cf8-02224747d661")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a14aee9-1c93-4793-8342-f7494ba7d335")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c5ea4606-f3e3-488e-b845-888afc0411d1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7d0e3d5a-f18e-4a0d-a2ab-502fac651e95")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -5.5 -16)
+		(end 5.5 16)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "95012727-e6f1-4fa9-8bf4-46f36f656213")
+	)
+	(fp_rect
+		(start -6.5 -18)
+		(end 6.5 18)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "fec82067-8587-41bd-a941-5803a6e76471")
+	)
+	(fp_text user "-"
+		(at -5 19.46 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "6754ecda-9685-46e5-a11b-7c881ba945d9")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "+"
+		(at -5 -18 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "8ec3d796-d6bb-491a-9797-103bc81f7e6f")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "+"
+		(at 2.46 -18 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "68300022-28a2-4380-ace1-c716c396a163")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${VALUE}"
+		(at -0.2 -9.79 -90)
+		(layer "F.SilkS")
+		(uuid "810783ae-288d-40f5-b510-2df326c0bc84")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "-"
+		(at 3 19.46 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9a3d1aa2-bc46-4946-84ce-bfa04613158d")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 -18.8)
+		(size 5 5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_width 1)
+		(uuid "0b7e51a2-ec52-4318-9a32-3757e58d6f90")
+	)
+	(pad "1" smd rect
+		(at 0 -18.8)
+		(size 5 5)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(thermal_bridge_width 1)
+		(uuid "c5b29751-e1a4-48e6-8580-00b6036ef1eb")
+	)
+	(pad "2" smd rect
+		(at 0 18.8)
+		(size 5 5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_width 1)
+		(uuid "d57fa7b8-2801-4833-b205-df0aeb9633f4")
+	)
+	(pad "2" smd rect
+		(at 0 18.8)
+		(size 5 5)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(thermal_bridge_width 1)
+		(uuid "dc336a4a-95f8-46a4-93f7-bd428f377398")
+	)
+	(model ":KICAD7_3DMODEL_DIR:Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model ":KICAD7_3DMODEL_DIR:Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.step"
+		(offset
+			(xyz 0 -31 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model ":HACRAFU_FOOTPRINTS:LiPo_Recycled.step"
+		(offset
+			(xyz 0 -30.5 6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
+)
