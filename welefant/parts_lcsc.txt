@@ -48,3 +48,4 @@ C3013940	ESP32-S3FH4R2
 #C128955     Switch
 #C697881		Reset Circuits	2.8 V
 C383211	       ESD
+C914095         Fuse
