@@ -3,10 +3,13 @@
   - [x] PWM Pins
   - [x] UART für GPS
 
-- [ ] Messpad Strom LED Kathode
+- [x] Messpad Strom LED Kathode
 
 - [x] Padgrößen zum Löten checken
   
-- [ ] Zusätzliche Connectoren
-- [ ] GPS Spannung VBAT?
+- [x] Zusätzliche Connectoren
+- [x] GPS Spannung VBAT?
 - [x] On/OFF checken
+
+Funktion Prüfen:
+- Langzeit-Leuchtetest

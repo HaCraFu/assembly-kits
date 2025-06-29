@@ -1,0 +1,134 @@
+(footprint "Battery 230525"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ab2a9b50-aa7f-4d7c-90f9-ace864a369cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Battery 230525"
+		(at 0 -3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "dfa68490-72ba-4c18-b811-c545700dbcfd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea0573b2-a8a9-4af9-b78c-91e8e473d8ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "34057f64-d4c2-4bda-ab4e-fc59e5dc04e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -8.5 -38.1)
+		(end 8.5 -0.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4649a9cf-9dab-45bb-a50d-b5fd2779bb6e")
+	)
+	(fp_text user "+"
+		(at 5.5 2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "57e969a8-fa5e-4265-af28-c45f13b3f160")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "-"
+		(at -8 2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b9470c36-ad62-4b82-a668-3d4745d108cb")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "999dc751-2927-40e9-9ba3-167a9e7d46ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 3 1.5)
+		(size 4 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "68e7b528-2f8f-4af9-bc8d-599d129deb74")
+	)
+	(pad "2" smd roundrect
+		(at -3 1.5)
+		(size 4 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "c7fcd744-35e0-44b7-bd9d-c0f67481eaf4")
+	)
+	(embedded_fonts no)
+	(model "../hacrafu.3dshapes/battery_230525.step"
+		(offset
+			(xyz -8.5 38 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)
