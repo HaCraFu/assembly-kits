@@ -14,8 +14,8 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "R1","66.5","R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",12.7000,-29.7180,180.0000,top
 "R2","66.5","R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",12.7000,-25.9080,180.0000,top
 "R3","66.5","R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",12.7000,-22.0980,180.0000,top
-"R4","66.5","R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",20.1930,-63.3730,-90.0000,top
-"R5","66.5","R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",25.1460,-63.2460,-90.0000,top
+"R4","66.5","R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",20.1930,-63.3730,270.0000,top
+"R5","66.5","R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",25.1460,-63.2460,270.0000,top
 "R6","1K","R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",12.9540,-48.6410,0.0000,top
-"SW1","SW_SPST","Switch_MSS22D18",0.0000,-38.1000,-90.0000,top
+"SW1","SW_SPST","Switch_MSS22D18",0.0000,-38.1000,270.0000,top
 "U1","ATtiny85-20S","SOIC-8W_5.3x5.3mm_P1.27mm-breiter",0.0000,-27.0000,270.0000,top
