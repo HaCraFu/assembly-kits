@@ -6177,15 +6177,15 @@
 			(uuid "13d5e971-716a-4346-8eee-2a84537d3205")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/RF_Module.3dshapes/Heltec_HT-CT62.step"
+		(model "${KIPRJMOD}/HT-CT62.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -12.5 -68 -1.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -9100,15 +9100,15 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/RF_GPS.3dshapes/Quectel_L80-R.step"
+		(model "${KIPRJMOD}/L80R.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -12.5 -54.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
