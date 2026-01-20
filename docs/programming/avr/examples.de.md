@@ -28,7 +28,7 @@ dazu auffordert. Das ganze sieht dann ungefähr so aus:
 !!! Beispiele
     === "Arrow"
 
-        Auf dem [Bau(m)satz](../../../kits/baumsatz) zeigt dieses Programm eine kleine Pfeilanimation.
+        Auf dem [Bau(m)satz](../../kits/baumsatz.md) zeigt dieses Programm eine kleine Pfeilanimation.
 
         Installieren mit dem Befehl 
         ```

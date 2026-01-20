@@ -15,6 +15,6 @@ Sie kann also auf die gleiche Weise programmiert werden.
 
 <!-- [Schaltplan](/../../kibot/schematic/baumsatz-schematic.pdf){:download} -->
 
-[Programmieranleitung](../../programming/avr)
+[Programmieranleitung](../programming/avr/index.md)
 
 [interaktiver BOM](../../kibot/baumsatz/ibom/baumsatz-ibom.html)
